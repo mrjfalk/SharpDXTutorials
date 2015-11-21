@@ -12,3 +12,6 @@ In the second tutorial we create a window which we will later render in. Read tu
 
 ### Part 3: Initializing DirectX
 In this tutorial we initialize DirectX. We set up the swap chain and a backbuffer to render to and finally clear the backbuffer into a nice blue color. Read tutorial here: http://johanfalk.eu/blog/sharpdx-beginners-tutorial-part-3-initializing-directx
+
+### Part 4: Drawing a triangle
+Finally time to draw something else than a blue screen. We draw a simple triangle from three vertices and add a simple vertex and pixel shader. Read tutorial here: http://johanfalk.eu/blog/sharpdx-beginners-tutorial-part-4-drawing-a-triangle
