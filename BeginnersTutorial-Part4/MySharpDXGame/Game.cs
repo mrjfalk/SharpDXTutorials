@@ -123,6 +123,8 @@ namespace MySharpDXGame
 			d3dDeviceContext.VertexShader.Set(vertexShader);
 			d3dDeviceContext.PixelShader.Set(pixelShader);
 
+			d3dDeviceContext.InputAssembler.PrimitiveTopology = PrimitiveTopology.TriangleList;
+
 			// Create the input layout from the input signature and the input elements
 			inputLayout = new D3D11.InputLayout(d3dDevice, inputSignature, inputElements);
 
