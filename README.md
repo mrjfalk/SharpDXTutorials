@@ -15,3 +15,6 @@ In this tutorial we initialize DirectX. We set up the swap chain and a backbuffe
 
 ### Part 4: Drawing a triangle
 Finally time to draw something else than a blue screen. We draw a simple triangle from three vertices and add a simple vertex and pixel shader. Read tutorial here: http://johanfalk.eu/blog/sharpdx-beginners-tutorial-part-4-drawing-a-triangle
+
+### Part 5: Coloring the triangle
+In this tutorial we will look at setting a specific color for each vertex. The tutorial is available here: http://www.johanfalk.eu/blog/sharpdx-beginners-tutorial-part-5-coloring-the-triangle
