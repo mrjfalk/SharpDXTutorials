@@ -97,9 +97,6 @@ namespace MySharpDXGame
 			{
 				renderTargetView = new D3D11.RenderTargetView(d3dDevice, backBuffer);
 			}
-
-			// Set back buffer as current render target view
-			d3dDeviceContext.OutputMerger.SetRenderTargets(renderTargetView);
 		}
 
 		private void InitializeShaders()
@@ -143,6 +140,9 @@ namespace MySharpDXGame
 		/// </summary>
 		private void Draw()
 		{
+			// Set back buffer as current render target view
+			d3dDeviceContext.OutputMerger.SetRenderTargets(renderTargetView);
+
 			// Clear the screen
 			d3dDeviceContext.ClearRenderTargetView(renderTargetView, new SharpDX.Color(32, 103, 178));
 			
